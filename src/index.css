@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-gray-100 text-gray-900; margin: 0; font-family: 'Inter', sans-serif; }
+}
+
+.animate-marquee { display: inline-flex; animation: marquee 30s linear infinite; }
+.animate-marquee:hover { animation-play-state: paused; }
